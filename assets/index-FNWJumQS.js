@@ -227,7 +227,7 @@ I hope my work reflects my commitment to both the craft of software development 
 <li><a href="./mini-alto.md">Mini Alto computer</a></li>
 <li><a href="./godot-refactorings.md">Godot refactorings (WIP)</a></li>
 <li><a href="./diagramas-colaboracion.md">UML object collaboration diagrams</a></li>
-<li><a href="https://javiergelatti.github.io/graficador-fractales-complejos/">Mandelbrot/Julia set fractal visualizer</a></li>
+<li><a href="https://javiergelatti.xyz/graficador-fractales-complejos/">Mandelbrot/Julia set fractal visualizer</a></li>
 <li>…</li>
 </ul>
 <hr>
@@ -281,7 +281,7 @@ I hope my work reflects my commitment to both the craft of software development 
 <p>A mini-course on the version control system for software development.</p>
 `,C=`<h1>Mini Interactive λ-Calculus Expression Editor</h1>
 <p>I developed an interactive editor that makes lambda calculus more tangible by treating expressions as manipulable structures.
-The editor, available <a href="https://javiergelatti.github.io/LambdaJS">here</a>, provides direct manipulation capabilities that respect the structure of valid terms. The tool was developed using JavaScript, and the code is available <a href="https://github.com/javiergelatti/LambdaJS">on GitHub</a>.</p>
+The editor, available <a href="https://javiergelatti.xyz/LambdaJS">here</a>, provides direct manipulation capabilities that respect the structure of valid terms. The tool was developed using JavaScript, and the code is available <a href="https://github.com/javiergelatti/LambdaJS">on GitHub</a>.</p>
 <hr>
 <p>To build an expression, you use placeholders for not-yet-determined subexpressions, called “holes”. When interacting with a hole, users are presented with the three fundamental building blocks of lambda calculus to fill it:</p>
 <ul>
@@ -383,7 +383,7 @@ While you make this interaction, all occurrences of the variable are highlighted
 <p>We’ve developed an interactive system for dynamically manipulating logical expressions to make deductions. The system can already be used to solve some puzzles from the book; for example, this is a proof of the first one<sup class="footnote-ref"><a href="#fn4" id="fnref4">[4]</a></sup>:</p>
 <p><img src="/images/logic-example-9.png" alt="Screenshot of the proof system showing axioms A1: (∀A)(∀B)(∃C)(∀x) C x = A (B x) (composition rule) and A2: (M x = x x), with derived theorem T1: (∀A)(∃X) X = A X. Sub-steps demonstrate for-all and exists eliminations, rewriting, and expression naming."></p>
 <p>The system was developed in TypeScript using Test-Driven Development for the prover model.
-You can find the code <a href="https://github.com/javiergelatti/logica-combinatoria">on GitHub</a> and try the system <a href="https://javiergelatti.github.io/logica-combinatoria">here</a>.</p>
+You can find the code <a href="https://github.com/javiergelatti/logica-combinatoria">on GitHub</a> and try the system <a href="https://javiergelatti.xyz/logica-combinatoria">here</a>.</p>
 <p>For me, one of the most interesting aspects of this project was creating a tool that helps users in their own journey exploring combinatory logic puzzles, instead of solving the problem for them by automatically generating solutions. I think this exemplifies a broader philosophy in tool design: creating systems that augment —rather than attempting to replace— human capabilities, where the right balance of challenge and support can provide meaningful assistance while respecting the autonomy of the user.</p>
 <p>Future work includes implementing additional domain features:</p>
 <ul>
@@ -633,7 +633,7 @@ In Self, you can see the objects and their connection to other objects, grab the
 <p>In a way, Smalltalk and Self put the objects right in front of you, reducing the distance between you —the programmer— and the running system: working with objects by directly “poking” at them on the screen highly contrasts with the more traditional process of <em>modifying a text file → compiling → running</em>, that inserts layers of indirection between you and the running program.</p>
 <h2>An experiment with JavaScript</h2>
 <p>JavaScript is a widely used language that was in part inspired by Self, sharing many of its characteristics (such as being dynamically-typed and prototype-based). This connection made me wonder if we could experience JavaScript in an environment that offers the kind of direct object manipulation that made Self so unique. So, I started working on an experiment to make it happen.</p>
-<p>Using TypeScript and the web browser’s DOM, I developed an environment to visualize and manipulate JavaScript objects in real-time. The code is available <a href="https://github.com/javiergelatti/self-js">on GitHub</a>, and you can experience it firsthand <a href="https://javiergelatti.github.io/self-js">here</a>.</p>
+<p>Using TypeScript and the web browser’s DOM, I developed an environment to visualize and manipulate JavaScript objects in real-time. The code is available <a href="https://github.com/javiergelatti/self-js">on GitHub</a>, and you can experience it firsthand <a href="https://javiergelatti.xyz/self-js">here</a>.</p>
 <p>The environment provides several features that embody the direct object manipulation style of Self.
 For example, you can visualize objects with their properties and connections to other objects, making the object graph tangible and explorable:</p>
 <p><img src="/images/self-js-example-js.png" alt="A visualization of a JavaScript 'point' object with properties _x:1 and _y:2, showing connections with its prototype and the number 2, which are also being visualized. The interface mimics Self's outliner style but uses JavaScript terminology, with a prototype slot instead of a parent slot, and a text field with 'Do it' and 'Get it' buttons below."></p>
