@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>UML object collaboration diagrams | @JavierGelatti online</title>
+    <meta name="description" content="Website from @javiergelatti">
+    <meta name="generator" content="VitePress v1.6.3">
+    <link rel="preload stylesheet" href="/assets/style.B1O6WZUb.css" as="style">
+    <link rel="preload stylesheet" href="/vp-icons.css" as="style">
+    
+    <script type="module" src="/assets/client-5O6C9RP6.js"></script>
+    <link rel="icon" href="/favicon.ico">
+    <script id="check-dark-mode">(()=>{const e=localStorage.getItem("vitepress-theme-appearance")||"auto",a=window.matchMedia("(prefers-color-scheme: dark)").matches;(!e||e==="auto"?a:e==="dark")&&document.documentElement.classList.add("dark")})();</script>
+    <script id="check-mac-os">document.documentElement.classList.toggle("mac",/Mac|iPhone|iPod|iPad/i.test(navigator.platform));</script>
+  </head>
+  <body>
+    <div id="app"><main class="vp-doc"><article class="local-note content-viewer"><div style="position:relative;"><div><h1 id="uml-object-collaboration-diagrams" tabindex="-1">UML object collaboration diagrams <a class="header-anchor hash" href="#uml-object-collaboration-diagrams" aria-label="Permalink to &quot;UML object collaboration diagrams&quot;">&#x200b;</a></h1><p>When I was studying software engineering, some courses I attended used UML for object-oriented modelling. During those university years, I frequently found myself drawing those diagrams. A particular pain point was maintaining consistency: whenever something needed to be changed (like renaming a message), the changes had to be manually propagated across the diagrams in the documentation.</p><p>This motivated me to develop an interactive tool that connects different views of an object-oriented program, making it easier to link the different diagrams together with the code.</p><p>The system provides three synchronized views of the program: an UML object collaboration diagram showing runtime interactions, an UML class diagram displaying the static structure, and a code panel showing the actual implementation.</p><p><img src="/assets/diagramas-colaboracion.BF5JOoBn.gif" alt="Animation showing the linked views of the tool: collaboration diagram at the left, class diagram at top right, and code panel below. The views update in sync as the user interacts with them."></p><p>The views are integrated &#x2014; objects can be rearranged with automatic connection routing, clicking elements in one view highlights related elements in others through animated indicators, and changes like renaming are automatically propagated across all views.</p><p>I started developing the tool using JavaScript for the browser, but I never actually finished its implementation. Nonetheless, I decided to write a bit about it here anyway because I believe <em>seeing the idea</em> might make you think about the possibility of having tools like this one.</p><hr><h2 id="aside-why-collaboration-diagrams" tabindex="-1">Aside: why &#x201c;collaboration diagrams&#x201d;? <a class="header-anchor hash" href="#aside-why-collaboration-diagrams" aria-label="Permalink to &quot;Aside: why &quot;collaboration diagrams&quot;?&quot;">&#x200b;</a></h2><p><em>Class diagrams</em> are the most widely used UML diagrams, but they only capture the static high-level structure of a program. Collaboration diagrams (called &#x201c;communication diagrams&#x201d; in UML 2.0) show the dynamic interactions between objects, making them particularly valuable for understanding object-oriented systems in action.</p><p>I prefer the term &#x201c;collaboration diagram&#x201d; over &#x201c;communication diagram&#x201d; for describing object interactions, because I think it&#x2019;s a more appropriate metaphor to show how objects <em>work together</em> to fulfill their responsibilities<sup class="footnote-ref"><a href="#fn1" id="fnref1" class="hash">[1]</a></sup>.</p><hr class="footnotes-sep"><section class="footnotes"><ol class="footnotes-list"><li id="fn1" class="footnote-item"><p>This use of the word &#x201c;collaboration&#x201d; also aligns with Rebecca Wirfs-Brock&#x2019;s books on object-oriented programming. <a href="#fnref1" class="footnote-backref hash">&#x21a9;&#xfe0e;</a></p></li></ol></section></div></div></article><svg xmlns="http://www.w3.org/2000/svg"/></main></div>
+    
+    
+  </body>
+</html>
